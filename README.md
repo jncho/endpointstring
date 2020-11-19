@@ -6,17 +6,18 @@ La siguiente petición será válida: /data?record=hola
 
 # Configuración del entorno
 
-Para poder usar este servicio se deberá tener instalado:
-    - Java JDK 8+
-    - Maven
-    - Crear variable de entorno JAVA_HOME apuntando al directorio donde se encuentra Java instalado.
+Para poder usar este servicio se deberá tener instalado:  
+    - Java JDK 8+  
+    - Maven  
+    - Crear variable de entorno JAVA_HOME apuntando al directorio donde se encuentra Java instalado.  
+    
 
 # Ejecución del servicio (por terminal)
 
-Para crear el .jar del proyecto: 
-    mvnw package
-Para ejecutar el servidor: 
-    java -jar target/endpointstring-0.0.1-SNAPSHOT.jar es.gt.endpointstring.EndpointstringApplication
+Para crear el .jar del proyecto:  
+    `mvnw package`  
+Para ejecutar el servidor:  
+    `java -jar target/endpointstring-0.0.1-SNAPSHOT.jar es.gt.endpointstring.EndpointstringApplication`  
     
 # Ejecución del servicio (por IntelliJ IDEA)
 
