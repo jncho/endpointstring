@@ -25,7 +25,7 @@ El repositorio es un proyecto de IntelliJ IDEA. Abriéndolo con este IDE se pued
 de maven y poder construir el .jar. Una vez generado el archivo se puede arrancar el servidor ejecutando la clase
 EndpointstringApplication.
 
-# Emplos de uso
+# Ejemplos de uso
 
 Para usar el servicio se puede Postman (https://www.postman.com/). Las peticiones tendrán que usar el método http `POST`,
 usando la ruta `/add` e incluyendo en el cuerpo la cadena en forma de JSON. La siguiente imagen muestra un ejemplo:  
