@@ -10,7 +10,8 @@ Para poder usar este servicio se deberá tener instalado:
     - Java JDK 8+  
     - Maven  
     - Crear variable de entorno JAVA_HOME apuntando al directorio donde se encuentra Java instalado.  
-    
+    - MySQL: Con usuario "root" y contraseña "root". Tiene que existir una base de datos llamada "endpoint_strings". Estos
+    parámetros se pueden cambiar en `src/main/resources/application.properties`.
 
 # Ejecución del servicio (por terminal)
 
